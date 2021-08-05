@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="fre_row_navigation" type="crawl_row_node" name="old_crawl_row" output="screen">
+        <remap from="lidar_front" to="/lidar_filtered/lidar_front_scan_filtered" />
+        <remap from="lidar_back" to="/lidar_filtered/lidar_back_scan_filtered" />
+        <remap from="lidar_front_cloud_filtered" to="/lidar_filtered/lidar_front_cloud_filtered" />
+        <remap from="lidar_back_cloud_filtered" to="/lidar_filtered/lidar_back_cloud_filtered" />
+        <remap from="distance" to="/robot/distance" />
+	<remap from="old_crawl_row/drive_command" to="/row_navigation/cmd_vel" />
+    <param name="p_gain" value="0.45" /> <!-- 0.35 | 0.45 for 0.7 speed -->
+	<param name="use_speed_control" value="true" />
+	<param name="end_line_frame_count_threshold" value="15" />
+    </node>
+</launch>
