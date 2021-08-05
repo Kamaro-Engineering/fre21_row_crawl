@@ -8,7 +8,7 @@
   <a href="https://www.gnu.org/licenses/gpl-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3"/></a>
 </p>
 <p align="middle">
-  This package contains the code used by Kamaro Engineering e.V. for navigating within a crop row at the Field Robot Event (FRE). The version published herein is a polished version of the code that won Task 1 of the [virtual FRE 2021](https://web.archive.org/web/20210805203539/https://www.fieldrobot.com/event/index.php/2021/06/08/betegeuze-nova-wins-basic-navigation-task/).
+  This package contains the code used by Kamaro Engineering e.V. for navigating within a crop row at the Field Robot Event (FRE). The version published herein is a polished version of the code that won Task 1 of the <a href="https://web.archive.org/web/20210805203539/https://www.fieldrobot.com/event/index.php/2021/06/08/betegeuze-nova-wins-basic-navigation-task/">virtual FRE 2021</a>.
 </p>
 <p align="middle">
   This package assumes you are working on <b>ROS Noetic</b>.
