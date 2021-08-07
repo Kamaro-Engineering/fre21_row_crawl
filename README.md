@@ -45,7 +45,5 @@ This package contains one node, `crawl_row_node`, that implements the algorithm 
 * `/row_navigation/cmd_vel` (`geometry_msgs/Twist` message for controlling a robot with differential drive)
 * `/crawl_row/viz` (`visualization_msgs/Marker` for RViz, showing the inner workings of the algorithm)
 
-## Install dependencies
-
 # License [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 The code in this repository is (c) by Kamaro Engineering e.V., subject to the file [LICENSE](LICENSE).
